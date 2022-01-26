@@ -5,6 +5,7 @@
       <map>
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_poke_list.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/poke_row_layout.xml" value="0.11803444782168186" />
       </map>
     </option>
   </component>
