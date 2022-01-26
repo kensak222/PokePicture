@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- エラー発生時のメッセージ（画面表示） -->
+    <string name="no_internet_connection">インターネットに接続されていません</string>
+
+</resources>

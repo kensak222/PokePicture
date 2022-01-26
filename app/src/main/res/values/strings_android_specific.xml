@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Fragmentのライフサイクル呼び出しメッセージ -->
+    <string name="on_create_view_called">onCreateが呼ばれました</string>
+    <string name="on_destroy_called">onDestroyが呼ばれました</string>
+
+</resources>
