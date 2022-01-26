@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="poke_practice">
+        <item>ピカチュウ</item>
+        <item>ゼニガメ</item>
+        <item>ポッチャマ</item>
+        <item>ヒトカゲ</item>
+        <item>ガブリアス</item>
+        <item>キモリ</item>
+    </string-array>
+
+</resources>
