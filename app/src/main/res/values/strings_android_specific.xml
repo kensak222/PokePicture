@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Fragmentのライフサイクル呼び出しメッセージ -->
-    <string name="on_create_view_called">onCreateが呼ばれました</string>
+    <string name="on_create_view_called">onCreateViewが呼ばれました</string>
     <string name="on_destroy_called">onDestroyが呼ばれました</string>
 
 </resources>
