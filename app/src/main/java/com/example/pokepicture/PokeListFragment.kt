@@ -8,13 +8,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.pokepicture.R
 import com.example.pokepicture.databinding.FragmentPokeListBinding
 
 class PokeListFragment : Fragment() {
 
-//    private val pokeAdapter: PokeAdapter by lazy {
-//        PokeAdapter()
-//    }
+    private val pokeAdapter: PokeAdapter by lazy {
+        PokeAdapter()
+    }
 
     private var _binding: FragmentPokeListBinding? = null
     private val binding get() = _binding!!
@@ -29,12 +30,12 @@ class PokeListFragment : Fragment() {
 
         // recycleViewのセットアップ
         val decoration = DividerItemDecoration(requireContext(), LinearLayoutManager(requireContext()).orientation)
-//        binding.pokeRecyclerView.apply {
-//            addItemDecoration(decoration)
-//            adapter = pokeAdapter
-//            layoutManager = LinearLayoutManager(requireContext())
-//            setHasFixedSize(true)
-//        }
+        binding.pokeRecyclerView.apply {
+            addItemDecoration(decoration)
+            adapter = pokeAdapter
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+        }
 
         return binding.root
     }
