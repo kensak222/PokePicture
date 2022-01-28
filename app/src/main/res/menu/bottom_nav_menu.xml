@@ -7,7 +7,7 @@
         android:title="@string/poke_tab" />
 
     <item
-        android:id="@+id/FavoriteFragment"
+        android:id="@+id/favoriteFragment"
         android:icon="@drawable/ic_favorite"
         android:title="@string/favorite_tab" />
 
