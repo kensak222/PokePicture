@@ -1,4 +1,4 @@
-package com.example.pokepicture
+package com.example.pokepicture.sights.poke
 
 import android.view.LayoutInflater
 import android.view.ViewGroup

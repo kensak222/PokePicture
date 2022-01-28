@@ -1,4 +1,4 @@
-package com.example.pokepicture
+package com.example.pokepicture.sights.poke
 
 import android.os.Bundle
 import android.util.Log
