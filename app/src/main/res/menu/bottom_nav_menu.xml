@@ -2,20 +2,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/pokeListFragment"
-        android:enabled="true"
-        android:icon="@drawable/ic_menu_book"
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_catching_pokemon"
         android:title="@string/poke_tab" />
 
     <item
-        android:id="@+id/favoriteFragment"
-        android:enabled="true"
+        android:id="@+id/navigation_dashboard"
         android:icon="@drawable/ic_favorite"
         android:title="@string/favorite_tab" />
 
     <item
-        android:id="@+id/rankink"
-        android:enabled="true"
+        android:id="@+id/navigation_notifications"
         android:icon="@drawable/ic_ranking"
         android:title="@string/ranking_tab" />
 
