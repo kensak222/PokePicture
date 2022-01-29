@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_catching_pokemon.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_droid_kun.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_favorite.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_menu_book.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_ranking.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_sad.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12545289855072464" />
