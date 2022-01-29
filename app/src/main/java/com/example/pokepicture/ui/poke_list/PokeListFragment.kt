@@ -5,14 +5,18 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.DividerItemDecoration
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.pokepicture.R
 import com.example.pokepicture.databinding.FragmentPokeListBinding
 
 class PokeListFragment : Fragment() {
+
+    private val pokeListAdapter: PokeListAdapter by lazy {
+        PokeListAdapter()
+    }
 
     private lateinit var pokeListViewModel: PokeListViewModel
     private var _binding: FragmentPokeListBinding? = null
@@ -30,15 +34,18 @@ class PokeListFragment : Fragment() {
 
         pokeListViewModel =
             ViewModelProvider(this).get(PokeListViewModel::class.java)
-
         _binding = FragmentPokeListBinding.inflate(inflater, container, false)
-        val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        pokeListViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
-        return root
+        // recycleViewのセットアップ
+        val decoration = DividerItemDecoration(requireContext(), LinearLayoutManager(requireContext()).orientation)
+        binding.pokeRecyclerView.apply {
+            addItemDecoration(decoration)
+            adapter = pokeListAdapter
+            layoutManager = LinearLayoutManager(requireContext())
+            setHasFixedSize(true)
+        }
+
+        return binding.root
     }
 
     override fun onDestroyView() {
