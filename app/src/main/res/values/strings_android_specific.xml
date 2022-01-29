@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Fragmentのライフサイクル呼び出しメッセージ -->
+    <!-- Fragmentのライフサイクル起動メッセージ -->
     <string name="on_create_called">onCreateが呼ばれました</string>
     <string name="on_create_view_called">onCreateViewが呼ばれました</string>
     <string name="on_destroy_called">onDestroyが呼ばれました</string>
+
+    <!-- Adapterのライフサイクル起動メッセージ -->
+    <string name="on_create_view_holder_called">onCreateViewHolderが呼ばれました</string>
+    <string name="on_bind_view_holder_called">onBindViewHolderが呼ばれました</string>
 
 </resources>
