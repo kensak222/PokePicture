@@ -4,9 +4,7 @@
 
     <!-- Viewの表示に最低限必要なアイテム -->
     <string name="poke_tab">Pokemon</string>
-    <string name="item_tab">Item</string>
     <string name="favorite_tab">Favorite</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ranking_tab">Ranking</string>
 
 </resources>

@@ -3,10 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_ranking.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/fragment_favorite.xml" value="0.10648148148148148" />
         <entry key="app/src/main/res/layout/fragment_poke_list.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/poke_row_layout.xml" value="0.11803444782168186" />
+        <entry key="app/src/main/res/layout/fragment_ranking.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>

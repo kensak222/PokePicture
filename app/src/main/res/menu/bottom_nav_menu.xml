@@ -3,12 +3,20 @@
 
     <item
         android:id="@+id/pokeListFragment"
+        android:enabled="true"
         android:icon="@drawable/ic_menu_book"
         android:title="@string/poke_tab" />
 
     <item
         android:id="@+id/favoriteFragment"
+        android:enabled="true"
         android:icon="@drawable/ic_favorite"
         android:title="@string/favorite_tab" />
+
+    <item
+        android:id="@+id/rankink"
+        android:enabled="true"
+        android:icon="@drawable/ic_ranking"
+        android:title="@string/ranking_tab" />
 
 </menu>
