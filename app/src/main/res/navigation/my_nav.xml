@@ -2,13 +2,25 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/hoge_navigation"
-    app:startDestination="@id/pokemonListFragment">
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
 
     <fragment
-        android:id="@+id/pokemonListFragment"
-        android:name="com.example.pokepicture.PokeListFragment"
-        android:label="poke_fragment"
+        android:id="@+id/navigation_home"
+        android:name="com.example.pokepicture.ui.poke_list.PokeListFragment"
+        android:label="@string/poke_tab"
         tools:layout="@layout/fragment_poke_list" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.pokepicture.ui.favorite.FavoriteFragment"
+        android:label="@string/favorite_tab"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.pokepicture.ui.ranking.RankingFragment"
+        android:label="@string/ranking_tab"
+        tools:layout="@layout/fragment_ranking" />
 
 </navigation>

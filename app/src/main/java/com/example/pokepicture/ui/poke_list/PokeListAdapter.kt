@@ -1,13 +1,13 @@
-package com.example.pokepicture
+package com.example.pokepicture.ui.poke_list
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.pokepicture.databinding.PokeRowLayoutBinding
 
-class PokeAdapter: RecyclerView.Adapter<PokeAdapter.PokeViewHolder>() {
+class PokeListAdapter : RecyclerView.Adapter<PokeListAdapter.PokeViewHolder>() {
 
-    class PokeViewHolder(private val binding: PokeRowLayoutBinding):
+    class PokeViewHolder(private val binding: PokeRowLayoutBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
         fun bind(position: Int) {
