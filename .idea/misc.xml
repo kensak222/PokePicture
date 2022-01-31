@@ -11,12 +11,15 @@
         <entry key="app/src/main/res/drawable/ic_menu_book.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_ranking.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_sad.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/splash_drawable.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/layout/fragment_home.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.12545289855072464" />
         <entry key="app/src/main/res/layout/fragment_poke_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/fragment_ranking.xml" value="0.12545289855072464" />
+        <entry key="app/src/main/res/layout/poke_row_layout.xml" value="0.12037037037037036" />
         <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
