@@ -35,6 +35,9 @@ android {
     dataBinding {
         enabled = true
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -55,5 +58,14 @@ dependencies {
 
     // Recyclerview
     implementation "androidx.recyclerview:recyclerview:1.2.1"
+
+    // Coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0"
+
+    // アニメーションライブラリ 最新ではない
+    implementation "com.airbnb.android:lottie:4.2.2"
+
+    // スプラッシュ画面
+    implementation "androidx.core:core-splashscreen:1.0.0-alpha02"
 
 }
