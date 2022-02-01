@@ -61,6 +61,18 @@
                 app:layout_constraintTop_toTopOf="@id/pictureBookNo" />
 
             <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:text="name"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="@+id/pictureBookNo"
+                app:layout_constraintEnd_toStartOf="@+id/bookNoText"
+                app:layout_constraintTop_toTopOf="@+id/pictureBookNo" />
+
+            <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/heightText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
