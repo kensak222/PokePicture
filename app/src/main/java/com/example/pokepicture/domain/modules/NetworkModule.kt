@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 
 object NetworkModule {
 
-    private val baseUrl = "https://pokeapi.co/api/v2"
+    private const val baseUrl = "https://pokeapi.co/api/v2"
 
     fun provideApiService(retrofit: Retrofit): PokemonApi {
         val okhttpClient = OkHttpClient.Builder()
