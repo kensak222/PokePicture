@@ -23,7 +23,7 @@ object NetworkModule {
             .build()
 
         val pokemonApiService = Retrofit.Builder()
-            .baseUrl("https://qiita.com")
+            .baseUrl(baseUrl)
             .client(okhttpClient)
             .addConverterFactory(MoshiConverterFactory.create())
             .build()
